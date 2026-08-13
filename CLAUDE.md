@@ -4,9 +4,10 @@
 FINS3645 FinTech Project 2026, Part B (Funds, Sentiment & App - Stations 3-4).
 Full brief: PROJECT_BRIEF.md. Reuses my own Part A foundation (src/etl.py,
 src/features.py, copied across and verified identical results).
-Building: out-of-sample funds (Combined Equal Weight, Combined Min Variance),
-a VADER sentiment index, a sentiment-tilt fusion, and a Streamlit app for
-Compass Invest.
+Building: six out-of-sample funds across three asset universes (Combined,
+Equity-Only, Crypto-Only) and two optimisation methods (Equal Weight,
+Minimum-Variance), a VADER sentiment index, a sentiment-tilt fusion, and a
+Streamlit app for Compass Invest.
 
 ## Working rules
 - Walk-forward backtest only: weights at each rebalance date computed strictly
